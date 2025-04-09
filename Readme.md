@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Варвара Махова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2057411).
-* Наставник: `Неизвестно`.
+* Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
 
 ---
 
