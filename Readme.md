@@ -2,7 +2,7 @@
 
 * Студент: [Варвара Махова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2057411).
 * Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
-
+* Сайт: [Мой проект Седона](https://v1mah.github.io/2057411-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
