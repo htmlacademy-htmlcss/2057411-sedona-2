@@ -24,16 +24,18 @@
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden visually-hidden-search">Поиск</span></a>
+                <span class="visually-hidden">Поиск</span></a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden visually-hidden-like">Избранное</span></a>
+                <span class="visually-hidden">Избранное</span></a>
                 <span class="notification-badge">12</span>
+            </li>
+            <li class="navigation-item">
+              <a class="button-header" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
-        <a class="button-header" href="#" >Хочу сюда!</a>
       </header>
       <main class="main-inner">
         <h1 class="main-inner-title">Гостиницы Седоны</h1>
@@ -108,16 +110,19 @@
                       </div>
                     </div>
                     <div class="price-filter-range">
+                      <div class="price-filter-strip"></div>
                       <button class="price-filter-range-min" type="button">
                         <span class="visually-hidden">Управление нижней границей стоимости</span>
                       </button>
                       <button class="price-filter-range-max" type="button">
                         <span class="visually-hidden">Управление верхней границей стоимости</span>
                       </button>
-                    <button class="price-filter-find" type="submit">Найти</button>
-                  </fieldset>       
+                    </div>
+                  </fieldset>  
+                  <div class="catalog-filter-button">
                   <button class="catalog-filter-submit" type="submit">Показать</button>
                   <button class="catalog-filter-reset" type="reset">Сбросить</button>
+                  </div>
                 </form>
             </section>
             <section class="catalog-products">
