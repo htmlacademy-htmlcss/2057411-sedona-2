@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -38,6 +39,7 @@
         </nav>
       </header>
       <main class="main-inner">
+        <header class="inner-header">
         <h1 class="main-inner-title">Гостиницы Седоны</h1>
         <ol class="breadcrumbs">
             <li class="breadcrumbs-item">
@@ -120,11 +122,12 @@
                     </div>
                   </fieldset>  
                   <div class="catalog-filter-button">
-                  <button class="catalog-filter-submit" type="submit">Показать</button>
+                  <button class="catalog-filter-submit" type="submit">Применить</button>
                   <button class="catalog-filter-reset" type="reset">Сбросить</button>
                   </div>
                 </form>
             </section>
+            </header>
             <section class="catalog-products">
                 <h2 class="catalog-products-title">Найдено гостиниц: <span>38</span></h2>
                 <select class="select-control" aria-label="Сортировка">
@@ -170,7 +173,7 @@
                         <p class="product-card-name">Гостиница</p>
                         <p class="product-card-price">От 5000 ₽</p>
                         <a class="product-card-button" href="#">Подробнее</a>
-                        <a class="favorite-card-button">В избранном</a>
+                        <a class="product-card-button-like product-card-button-like-added">В избранном</a>
                         <p class="product-card-stars product-card-stars-4"><span class="visually-hidden">4 Звезды</span></p>
                         <p class="product-card-rating">Рейтинг: <span>9,2</span></p>
                     </li>
@@ -204,7 +207,7 @@
                       <a class="pagination-link pagination-current" href="#">1</a>
                     </li>
                     <li class="pagination-item">
-                      <a class="pagination-linkt" href="#">2</a>
+                      <a class="pagination-link" href="#">2</a>
                     </li>
                     <li class="pagination-item">
                       <a class="pagination-link" href="#">3</a>
@@ -221,14 +224,14 @@
                   </ul>
             </section>
             <section class="subscribe-inner">
-                <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-                <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+                <h2 class="subscribe-title subscribe-title-catalog">Подпишитесь на рассылку</h2>
+                <p class="subscribe-description subscribe-description-catalog">Только полезная информация и никакого спама, честное бойскаутское!</p>
                 <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
                   <p class="subscribe-form-name">
                     <label class="visually-hidden" for="user-email">Ваш-email</label>
                     <input type="email" id="user-email" name="user-email" placeholder="Ваш e-mail">
+                    <button class="subscribe-button" type="submit">Подписаться</button>
                   </p>
-                  <button class="subscribe-button" type="submit">Подписаться</button>
                 </form>
               </section>
           </main>
