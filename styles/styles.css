@@ -30,13 +30,12 @@ body {
     font-style: normal;
     color: #333333;
     background-color: #FFFFFF;
+    width: 1200px;
 }
 
 .navigation {
     display: flex;
-    width: 1200px;
     margin: 0 auto;
-    padding: 0 70px;
 }
 
 .navigation-list {
@@ -86,7 +85,6 @@ body {
 }
 
 .page-container {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -127,12 +125,12 @@ body {
 .advantages-item {
     background-color: #83B3D31F;
     text-align: center; 
-    width: 400px;
+    width: 33.3333%;
     min-height: 385px;
 }
 
 .advantages-item-wide {
-    width: 1200px;
+    width: 100%;
 }
 
 .advantages-title {
@@ -176,7 +174,7 @@ body {
 .services-item {
    background-color: #83B3D31F ; 
    text-align: center;
-   width: 400px;
+   width: 33.3333%;
    min-height: 385px;
 }
 
@@ -317,13 +315,13 @@ body {
   }
   
   .infrastructure {
-    width: 150.43px;
+    width: 150px;
     margin-right: 70px;
   }
   
   .housing-type {
-    width: 150.43px;
-    margin-right: 140.15px;
+    width: 150px;
+    margin-right: 140px;
   }
   
   .price-filter {
@@ -413,6 +411,29 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.product-card {
+    box-sizing: border-box;
+    width: 340px;
+    margin-right: 20px;
+}
+
+.product-card:nth-child(3) {
+    margin-right: 0;
+}
+
+.product-card:nth-child(4) {
+    margin-right: 0;
 }
 
 .product-card-title {
