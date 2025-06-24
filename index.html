@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <div class="navigation-wrapper">
         <a class="navigation-logo" href="https://htmlacademy.ru/intensive/htmlcss">
@@ -48,13 +48,13 @@
         </ul>
       </nav>
     </header>
-    <main class=" main-container main-index">
+    <main class=" main-container main-index" data-test="main">
       <div class="page-container">
-      <section class="hero">
+      <section class="hero" data-test="hero">
         <h1 class="visually-hidden">Седона-городок в Аризоне</h1>
         <img class="hero-img" src="images/welcome.svg" width="458" height="352" alt="welcome to the gargeous Sedona, because the Grand Canyon sucks">
       </section>
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <div class="advantages-introduction">
         <p class="advantages-lead">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</p>
@@ -95,7 +95,7 @@
             </li>
           </ul>
       </section>
-      <section class="services">
+      <section class="services" data-test="service">
       <h2 class="visually-hidden">Преимущества</h2>
       <div class="services-introduction">
       <p class="services-lead">Приезжайте в Седону отдохнуть<br>в комфорте и уюте!</p>
@@ -122,12 +122,12 @@
         </li>
       </ul>
       </section>
-      <section class="search-promo">
+      <section class="search-promo" data-test="search">
         <h2 class="search-promo-title">Заинтересовались?</h2>
         <p class="search-promo-description">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button button-promo" href="#">Поиск гостиницы в седоне</a>
       </section>
-      <section class="subscribe">
+      <section class="subscribe" data-test="subscribe">
         <div class="subscribe-wrap">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
@@ -142,7 +142,7 @@
       </section>
       </div>
     </main>
-      <footer class="page-footer">
+      <footer class="page-footer" data-test="footer">
         <div class="page-footer-container">
         <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -180,7 +180,7 @@
       </footer>
 
       <div class="modal-container modal-container-close">
-      <div class="modal modal-search">
+      <div class="modal modal-search" data-test="modal">
         <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть.</span>
         </button>

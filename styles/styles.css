@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    min-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     font-family: "PT Sans", sans-serif;
@@ -308,6 +308,7 @@ img {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    color: #000000;
     text-transform: uppercase;
     margin: 0;
 }
@@ -320,6 +321,10 @@ img {
     margin: 30px auto 30px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
+}
+
+.advantages-title-wide {
+    color: #FFFFFF;
 }
 
 .advantages-title-wide::after {
@@ -529,10 +534,6 @@ img {
     padding-left: 20px;
 }
 
-.field::placeholder {
-    opacity: 0.6;
-}
-
 .field:disabled {
     color: rgba(0, 0, 0, 0.3)
 }
@@ -698,6 +699,7 @@ img {
     background-image: url("../images/close.svg");
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .modal-close-button:hover {
@@ -766,6 +768,7 @@ img {
     align-items: center;
     justify-content: center;
     height: 100%;
+    cursor: pointer;
 }
 
 
@@ -773,13 +776,14 @@ img {
     flex: 1;
     margin: 0;
     padding: 12px 20px;
+    padding-right: 48px;
     font-family: inherit;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     background-color: #F2F2F2;
-    border: 2px solid transparent;
+    border: none;
     border-radius: 4px;
 }
 
@@ -802,7 +806,8 @@ img {
 
 .modal-message {
     grid-column: 2 / -1;
-    padding: 5px 20px;
+    padding: 4px 20px;
+    padding-bottom: 0;
     font-size: 16px;
     word-wrap: break-word;
 }
@@ -822,6 +827,7 @@ img {
 .modal-form-field-wrapper {
     display: grid;
     grid-template-columns: 40px 31px 40px;
+    height: 48px;
 }
 
 .modal-form-submit {
@@ -913,7 +919,7 @@ img {
             appearance: none;
 }
 
-.modal-container-close {
+ .modal-container-close {
     display: none;
 }
 
@@ -1166,9 +1172,9 @@ img {
 
 .price-filter {
     max-width: 288px;
-    margin-right: 70px;
     margin: 0;
     padding: 0;
+    margin-right: 70px;
     border: none;
 }
 
@@ -1644,7 +1650,7 @@ img {
 }
 
 .product-card-button-like-added:hover,
-.pproduct-card-button-like-added:focus-visible {
+.product-card-button-like-added:focus-visible {
     background-color: #6C9E42;
 }
 

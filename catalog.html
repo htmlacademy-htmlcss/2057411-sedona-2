@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <div class="navigation-wrapper">
         <a class="navigation-logo" href="https://htmlacademy.ru/intensive/htmlcss">
@@ -48,7 +48,7 @@
         </ul>
       </nav>
     </header>
-      <main class="main-inner main-container">
+      <main class="main-inner main-container" data-test="main">
         <div class="page-container">
         <header class="inner-header">
           <div class="inner-header-wrap">
@@ -66,7 +66,7 @@
                 <a class="breadcrumbs-link" href="#">Гостиницы</a>
             </li>
         </ol>
-        <section class="filters">
+        <section class="filters" data-test="filter">
             <h2 class="visually-hidden" hidden>Список услуг с фильтрами</h2>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
                 <fieldset class="catalog-filter-group infrastructure">
@@ -152,7 +152,7 @@
             </section>
           </div>
             </header>
-            <section class="catalog-products">
+            <section class="catalog-products" data-test="catalog">
               <div class="catalog-products-wrap">
                 <div class="sorting-container">
                 <h2 class="catalog-products-title">Найдено гостиниц: <span>38</span></h2>
@@ -294,7 +294,7 @@
                   </ul>
               </div>
             </section>
-            <section class="subscribe-inner">
+            <section class="subscribe-inner" data-test="subscribe">
               <div class="subscribe-inner-wrap">
                <h2 class="subscribe-title subscribe-title-catalog">Подпишитесь на рассылку</h2>
                <p class="subscribe-description subscribe-description-catalog">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
@@ -309,7 +309,7 @@
               </section>
               </div>
           </main>
-          <footer class="page-footer">
+          <footer class="page-footer" data-test="footer">
             <div class="page-footer-container">
             <ul class="footer-social-list">
           <li class="footer-social-item">
