@@ -567,7 +567,6 @@ img {
 .page-footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 1060px;
     margin: 0 auto;
     padding-top: 40px;
@@ -617,11 +616,15 @@ img {
     fill: rgba(104, 162, 202, 0.3);
 }
 
-.footer-phone {
+.phone-wrapper {
     flex-grow: 1;
     max-width: 340px;
-    margin-left: 231px;
-    margin-right: 230px;
+    margin-left: 235px;
+    margin-right: 210px;
+}
+
+.footer-phone {
+    display: table;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 40px;
@@ -997,6 +1000,7 @@ img {
     background-image: url("../images/background-catalog.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #82B3D3;
     color: #FFFFFF;
 }
 
@@ -1432,7 +1436,6 @@ img {
 .select {
     position: relative;
     display: flex;
-    align-items: center;
     width: 292px;
 }
 
@@ -1553,6 +1556,9 @@ img {
 .product-card-image {
     display: block;
     margin: 0;
+    width: 300px;
+    height: 212px;
+    object-fit: cover;
 }
 
 .product-card-title {
@@ -1587,6 +1593,7 @@ img {
 
 .product-card-buttons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -1666,6 +1673,7 @@ img {
 
 .product-card-statistics {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
